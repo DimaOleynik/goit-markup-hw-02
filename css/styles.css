@@ -50,7 +50,6 @@ header div.menu nav ul li:last-child {
 header div.menu nav ul li a {
   font-size: 14px;
   font-weight: 500;
-  font-family: inherit;
   text-decoration: none;
   color: var(--color-black);
 }
@@ -74,7 +73,6 @@ header div.contacts a {
   font-size: 14px;
   font-weight: 500;
   margin-right: 50px;
-  font-family: inherit;
   text-decoration: none;
   color: var(--color-dark-grey);
 }
@@ -104,8 +102,8 @@ main section.banner div {
 main section.banner div h1 {
   margin: 0;
   font-size: 44px;
+  line-height: 1.4;
   font-weight: 900;
-  font-family: inherit;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--color-white);
@@ -113,12 +111,13 @@ main section.banner div h1 {
 
 main section.banner div button {
   border: 0;
+  cursor: pointer;
   font-size: 16px;
   margin-top: 30px;
-  font-weight: bold;
+  font-weight: 700;
+  line-height: 1.9;
   border-radius: 4px;
   padding: 10px 32px;
-  font-family: inherit;
   letter-spacing: 0.06em;
   color: var(--color-white);
   background-color: var(--color-blue);
@@ -147,9 +146,9 @@ main section.boxes-with-text ul li p {
 
 main section.boxes-with-text ul li p:first-child {
   font-size: 14px;
+  line-height: 1.2;
   font-weight: 700;
   margin-bottom: 10px;
-  font-family: inherit;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--color-black-2);
@@ -158,8 +157,7 @@ main section.boxes-with-text ul li p:first-child {
 main section.boxes-with-text ul li p:last-child {
   font-size: 14px;
   font-weight: 400;
-  line-height: 171%;
-  font-family: inherit;
+  line-height: 1.7;
   letter-spacing: 0.03em;
   color: var(--color-dark-grey);
 }
@@ -171,10 +169,10 @@ main section.with-images {
 
 main section.with-images h2 {
   font-size: 36px;
-  font-weight: bold;
+  line-height: 1.2;
+  font-weight: 700;
   margin: 0 0 50px 0;
   text-align: center;
-  font-family: inherit;
   color: var(--color-black-2);
 }
 
@@ -201,10 +199,10 @@ main section.team {
 
 main section.team h2 {
   font-size: 36px;
-  font-weight: bold;
+  line-height: 1.2;
+  font-weight: 700;
   margin: 0 0 50px 0;
   text-align: center;
-  font-family: inherit;
   color: var(--color-black-2);
 }
 
@@ -237,7 +235,6 @@ main section.team ul li div p:first-child {
   font-size: 16px;
   font-weight: 500;
   margin-bottom: 10px;
-  font-family: inherit;
   letter-spacing: 0.03em;
   color: var(--color-black-2);
 }
@@ -245,7 +242,6 @@ main section.team ul li div p:first-child {
 main section.team ul li div p:last-child {
   font-size: 16px;
   font-weight: 400;
-  font-family: inherit;
   letter-spacing: 0.03em;
   color: var(--color-dark-grey);
 }
@@ -283,8 +279,8 @@ main section.portfolio div.buttons ul li button {
   border: 0;
   cursor: pointer;
   font-size: 16px;
+  line-height: 1.6;
   font-weight: 500;
-  line-height: 162%;
   padding: 6px 22px;
   border-radius: 4px;
   font-family: inherit;
@@ -338,8 +334,7 @@ main section.portfolio div.portfolio-items ul li div p {
 
 main section.portfolio div.portfolio-items ul li div p:first-child {
   font-size: 18px;
-  font-weight: bold;
-  font-family: inherit;
+  font-weight: 700;
   letter-spacing: 0.06em;
   color: var(--color-black-2);
 }
@@ -348,8 +343,7 @@ main section.portfolio div.portfolio-items ul li div p:last-child {
   margin-top: 4px;
   font-size: 16px;
   line-height: 187%;
-  font-weight: normal;
-  font-family: inherit;
+  font-weight: 400;
   letter-spacing: 0.03em;
   color: var(--color-dark-grey);
 }
@@ -381,7 +375,6 @@ footer address p {
   font-size: 14px;
   font-weight: 400;
   font-style: normal;
-  font-family: inherit;
   letter-spacing: 0.03em;
   color: var(--color-white);
 }
@@ -392,7 +385,6 @@ footer address a {
   font-size: 14px;
   font-weight: 400;
   font-style: normal;
-  font-family: inherit;
   text-decoration: none;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
